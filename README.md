@@ -1,7 +1,10 @@
 # Osmdroid-Marker
-Simple markers add, like Google maps
+Assistant, which allows you to quickly cope with the marks on the OpenstreetMap.
 
-**Example:**
+**Installation**
+download to working directory
+
+**Usage:**
 ```Java
 OsmMarker myPositionMarker = new OsmMarker(new GeoPoint(57.9671615,75.3016578));
 myPositionMarker.setIcon(context.getResources().getDrawable(R.drawable.myperson));
